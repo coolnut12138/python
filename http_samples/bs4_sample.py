@@ -50,4 +50,4 @@ soup.select('.story')
 soup.select('#link1')
 
 soup_lxml = BeautifulSoup(html_doc, 'lxml')
-print(soup_lxml.a)
+print('##' * 10, soup_lxml.a)
