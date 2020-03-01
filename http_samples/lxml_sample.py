@@ -38,8 +38,7 @@ print(se.xpath('//bookstore/book[last()]/title/text()'))
 # 选取书店下倒数第二本书的标题
 print(se.xpath('//bookstore/book[last()-1]/title/text()'))
 # 选取书店下前两本书的标题
-print('前两本书', 
-        se.xpath('//bookstore/book[position()<3]/title/text()'))
+print('前两本书', se.xpath('//bookstore/book[position()<3]/title/text()'))
 # 选取所有分类为web的书本
 print('分类为web的书', se.xpath('//book[@catagory="web"]/title/text()'))
 # 选取所有价格大于30.00元的书本
