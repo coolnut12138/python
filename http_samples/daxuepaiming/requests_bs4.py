@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import bs4
 
+# 爬取中国最好大学里的排名并展示
 def getHTMLText(url):
     try:
         r = requests.get(url, timeout=30)
